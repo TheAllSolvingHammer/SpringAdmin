@@ -13,16 +13,11 @@
   </licenses>
   <dependencies>
     <dependency>
-      <groupId>com.tinqinacademy</groupId>
-      <artifactId>api</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.tinqinacademy</groupId>
-      <artifactId>core</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-      <scope>compile</scope>
+      <groupId>de.codecentric</groupId>
+      <artifactId>spring-boot-admin-dependencies</artifactId>
+      <version>3.3.2</version>
+      <type>pom</type>
+      <scope>import</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>

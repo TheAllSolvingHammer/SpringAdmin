@@ -10,11 +10,7 @@
     </parent>
 
     <modules>
-        <module>core</module>
         <module>rest</module>
-        <module>api</module>
-        <module>persistence</module>
-        <module>domain</module>
     </modules>
     <groupId>com.tinqinacademy</groupId>
     <artifactId>SpringAdmin</artifactId>
@@ -42,6 +38,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-starter-server</artifactId>
+            <version>3.1.5</version>
         </dependency>
     </dependencies>
     <build>
